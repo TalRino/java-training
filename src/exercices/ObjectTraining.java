@@ -1,6 +1,4 @@
-package exercices;
-
-public class Person {
+public class ObjectTraining {
 
     // TODO 1. Add the following private attributes :
     // - name (String)
@@ -50,12 +48,15 @@ public class Person {
     // TODO 9. Create a method 'whoAmI' that returns "My name is {name} and I'm {age}"
     // where you replace {name} and {age} with attributes values
 
+<<<<<<< HEAD:src/exercices/Person.java
     public String whoAmI() {
         return "My name is " + getName() + " and I'm " + getAge();
     }
 
+=======
+>>>>>>> upstream/master:src/exercices/ObjectTraining.java
 
     // Do not remove this empty constructor !
-    public Person() {
+    public ObjectTraining() {
     }
 }
